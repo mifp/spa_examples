@@ -1,20 +1,27 @@
 # spa_examples
 
-
+````bash
 my-spa-examples/
+│
+├── alpinejs-example/
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── app.js
 │
 ├── react-example/
 │   ├── public/
-│   │   ├── index.html
+│   │   └── index.html
 │   ├── src/
 │   │   ├── components/
 │   │   │   ├── Home.js
 │   │   │   ├── Login.js
 │   │   │   ├── Status.js
 │   │   │   ├── SubmitData.js
-│   │   ├── App.js
-│   │   ├── index.js
-│   ├── package.json
+│   │   └── App.js
+│   │   └── index.js
+│   └── package.json
 │
 ├── angular-example/
 │   ├── src/
@@ -34,18 +41,5 @@ my-spa-examples/
 │   │   │   ├── app.module.ts
 │   │   │   ├── app.component.ts
 │   │   │   ├── app.component.html
-│   │   ├── index.html
-│   ├── package.json
-│
-├── vue-example/
-│   ├── public/
-│   │   ├── index.html
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── Home.vue
-│   │   │   ├── Login.vue
-│   │   │   ├── Status.vue
-│   │   │   ├── SubmitData.vue
-│   │   ├── App.vue
-│   │   ├── main.js
-│   ├── package.json
+│   │   └── index.html
+│   └── package.json
